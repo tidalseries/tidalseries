@@ -8,6 +8,16 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -16,6 +26,7 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -36,11 +47,13 @@ body {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+
 /* rtl:end:ignore */
 
 
@@ -48,13 +61,15 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* rtl:end:remove */
@@ -63,11 +78,13 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
+
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+
   }
 
   .featurette-heading {
